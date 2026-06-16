@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-maroon-50: #fdf1f3;
+  --color-maroon-100: #fbe2e6;
+  --color-maroon-200: #f8c9d1;
+  --color-maroon-300: #f3a2b1;
+  --color-maroon-400: #eb748d;
+  --color-maroon-500: #db4466;
+  --color-maroon-600: #bf264a;
+  --color-maroon-700: #a11b3b;
+  --color-maroon-800: #800020; /* Primary Maroon */
+  --color-maroon-900: #6c041d;
+  --color-maroon-950: #3f000d;
+  
+  --color-peach-50: #fffbf7;
+  --color-peach-100: #fff4ec;
+  --color-peach-200: #ffe6d4;
+  --color-peach-300: #ffd0b0;
+  --color-peach-400: #FFCBA4; /* Accent Peach */
+  --color-peach-500: #ff9e59;
+  --color-peach-600: #ff781f;
+  --color-peach-700: #e65500;
+  --color-peach-800: #b34000;
+  
+  --color-cream: #FFF5EE; /* Soft cream background */
+}
+
+/* Base customization to use displaying font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display), sans-serif;
+}
+

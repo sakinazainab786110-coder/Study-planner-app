@@ -1,0 +1,6 @@
+{
+  "name": "Study Planner",
+  "description": "A comprehensive study planning and productivity app with a Pomodoro timer, calendar schedule, task list, notes, and progress analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
